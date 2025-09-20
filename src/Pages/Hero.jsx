@@ -4,11 +4,11 @@ import Video from "../components/Video";
 
 const Hero = () => {
     return (
-        <div className="bg-red-900 h-screen w-screen">
-            <div className="fixed">
+        <div className="">
+            <div className="fixed w-full h-full ">
                 <Video />
             </div>
-            <div className="relative">
+            <div className="h-screen w-screen relative flex flex-col gap-2 justify-between ">
                 <Hero_Top />
                 <Hero_bottom/>
             </div>
