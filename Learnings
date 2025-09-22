@@ -1,0 +1,7 @@
+"stairs.jsx" :
+ we need to restart the wrapper of animation if we want to use the animation again and again , set y:0 after animation done and display none and block , only after that it will work .
+
+ "agence.jsx" 
+ scrolling image effect we use progress and divide it witht the lengh of the array and get the div.current.src and change it accordingly .
+
+ 

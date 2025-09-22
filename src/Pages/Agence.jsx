@@ -44,7 +44,7 @@ const Agence = () => {
     })
 
     return (
-        <div>
+        <div className=" pt-1">
             <div className="section">
                 <div ref={imageDivRef} className="absolute h-[20vw] w-[15vw] rounded-3xl top-[18vw] left-[31vw] bg-red-500">
                     <img ref={imageRef} src="/image1.jpg" className="h-full w-full object-cover rounded-3xl" />
